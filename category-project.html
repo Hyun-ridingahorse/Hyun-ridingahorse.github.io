@@ -1,0 +1,16 @@
+---
+layout: default
+title: 프로젝트
+---
+
+<h1>프로젝트</h1>
+
+<ul>
+{% for post in site.posts %}
+  {% if post.category == "project" %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
