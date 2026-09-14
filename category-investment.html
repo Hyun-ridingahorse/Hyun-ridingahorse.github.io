@@ -1,0 +1,48 @@
+---
+layout: default
+title: 투자론
+---
+
+<h1>투자론</h1>
+
+<ul>
+{% for post in site.posts %}
+  {% if post.category == "investment" %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+---
+layout: default
+title: 금융공학
+---
+
+<h1>금융공학</h1>
+
+<ul>
+{% for post in site.posts %}
+  {% if post.category == "financial-engineering" %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+---
+layout: default
+title: 프로젝트
+---
+
+<h1>프로젝트</h1>
+
+<ul>
+{% for post in site.posts %}
+  {% if post.category == "project" %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
