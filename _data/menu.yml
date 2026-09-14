@@ -1,25 +1,18 @@
-# For documentation on this file, see:
-# https://github.com/riggraz/no-style-please#customize-the-menu
-
 entries:
-  - title: About
-    entries:
-      - title: 아카이브
-        
-  - title: Posts
+  - title: All Posts
     post_list:
       limit: 10
       show_more: true
-      show_more_text: 모든 글 보기
+      show_more_text: "모든 글 보기"
       show_more_url: archive.html
 
   - title: Categories
     entries:
-      -title: 투자론
-       url: category-investment.html
+      - title: 투자론
+        url: category-investment.html
 
-      -title: 금융공학
-       url: category-financial-engineering.html
+      - title: 금융공학
+        url: category-financial-engineering.html
 
-      -title: 프로젝트
+      - title: 프로젝트
         url: category-project.html
