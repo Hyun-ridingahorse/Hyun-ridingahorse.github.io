@@ -4,5 +4,13 @@
 @import "no-style-please";
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Pretendard", "Apple SD Gothic Neo",
+               "Noto Sans KR", Arial, sans-serif;
+  line-height: 1.7;
+  font-size: 17px;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
 }
